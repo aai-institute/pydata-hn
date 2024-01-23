@@ -1,0 +1,28 @@
+{
+	"experiment_name": "Image Classification",
+	"description": "Experiment to classify images into various categories using a convolutional neural network.",
+	"dataset": {
+		"name": "ImageNet",
+		"size": 1000000,
+		"num_classes": 1000,
+		"split": {
+			"train": 0.8,
+			"validation": 0.1,
+			"test": 0.1
+		}
+	},
+	"model": {
+		"type": "Convolutional Neural Network",
+		"layers": 20,
+		"parameters": {
+			"learning_rate": 0.001,
+			"batch_size": 32,
+			"optimizer": "Adam"
+		}
+	},
+	"training_metrics": {
+		"accuracy": 0.95,
+		"loss": 0.05
+	},
+	"experiment_date": "2024-01-19"
+}
