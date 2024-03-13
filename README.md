@@ -3,10 +3,10 @@ This repository contains a jupyter notebook example that showcases the abilities
 
 The notebook was the basis for a talk on data version control given by Max Mynter (MLOps engineer at appliedAI Institute for Europe) at PyData Heilbronn in February 2024.
 
-The talk is available on YouTube and embedded below (~ 25 min - the video is longer as it is a livestream recording that went into the break).
+The talk is available on YouTube. Click the video below, to watch it. The talk is about ~25 min (the video is longer as it is a livestream recording that went into the break).
 In it's first half we cover data version control in general, the second half is a hands-on walkthrough on versioning datasets from Python with lakeFS and lakeFS-spec.
 
-[![YouTube thumbnail of the PyData Heilbronn talk on data version control with lakeFS and lakeFS-spec](https://img.youtube.com/vi/1LcCAjJ589Y&t=3s)](https://www.youtube.com/watch?v=1LcCAjJ589Y&t=3s)
+[![YouTube thumbnail of the PyData Heilbronn talk on data version control with lakeFS and lakeFS-spec](resources/YT_thumbnail.png)](https://www.youtube.com/watch?v=1LcCAjJ589Y)
 
 ## Running the Notebook on your machine
 To run the notebook you need to setup your local development environment and a lakeFS server.
